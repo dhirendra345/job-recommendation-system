@@ -1,0 +1,21 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+.env
+
+# Cache and Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore large pickle files if they exceed GitHub's 100MB limit
+# df.pkl
